@@ -76,6 +76,7 @@ def train_epoch(net, train_batchdata, optimizer,criterion):
 
     train_epoch_loss = batch_loss / samples
     return train_epoch_loss
+    
 def valid_epoch(net, valid_batchdata,criterion):
     batch_loss = 0
     samples = 0
