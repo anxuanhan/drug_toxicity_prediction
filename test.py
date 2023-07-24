@@ -2,7 +2,7 @@ import torch
 import pickle
 import torch.nn as nn
 
-X_test = pickle.load(open("C:/Users/82511/Desktop/future/project/Deep_learning_short_course-main/Deep_learning_short_course-main/Drug_Toxicity/Data_file/test_feature.pkl","rb"))
+X_test = pickle.load(open("./dataset/test_feature.pkl","rb"))
 X_test = torch.tensor(X_test, dtype=torch.float32)
 print(X_test.shape)
 
@@ -30,8 +30,6 @@ def test_label(yhat_test_list, threshold):
         else:
             yhat_test_list[i] = 0.0
     return yhat_test_list
-
-
 
 best_model = Model(729, 1)
 best_model.load_state_dict(torch.load('./best_model.dat'))
