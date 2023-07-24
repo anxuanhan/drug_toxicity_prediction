@@ -14,6 +14,9 @@ Cell and animal experiences are the traditional way to determine whether a drug 
 ## Neural Network Diagram
 ![Neural Network Diagram](https://github.com/anxuanhan/drug_toxicity_prediction/blob/main/img/neural%20network%20diagram.png)
 
+## Train_Valid_Loss and Valid_F1_Score
+![Train_Valid_Loss and Valid_F1_Score]()
+
 ## Usage
 open cmd<br>
 python software.py "the absolute path of the csv file"<br>
