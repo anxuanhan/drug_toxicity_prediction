@@ -1,7 +1,7 @@
 # drug_toxicity_predction
 This project is for users to predict the toxicity of drugs, using the Multi-Layer Perceptron (MLP) algorithm, which is carefully implemented by pytorch.
 ## Description
-Cell and animal experiences are the traditional way to determine whether a drug is toxic, but it can waste a lot of time, money and effort to screen it. Now we use the  deeplearning MLP algorithm to model according to the known drug features and drug labels, and find the best model to predict toxicity based on the maximum value of f1-score from the validation dataset. In order to help people better use the model to predict drug toxicity, a minor software was written, which only needs to input the absolute path of the csv file that holds the drug features to get the prediction results.
+Cell and animal experiments have traditionally been used to determine drug toxicity, but they can be time-consuming, expensive, and labor-intensive. However, we now employ the deep learning MLP algorithm to create models based on known drug features and labels. By identifying the best model that predicts toxicity using the highest f1-score from the validation dataset, we can streamline the screening process. To facilitate the utilization of this model for drug toxicity prediction, a user-friendly software has been developed. This software only requires the input of the absolute path of the CSV file containing the drug features in order to generate accurate prediction results.
 ## Environment
 * Python 3.9.13
 * PyTorch 2.0.1
@@ -18,7 +18,7 @@ Cell and animal experiences are the traditional way to determine whether a drug 
 ![Train_Valid_Loss and Valid_F1_Score](https://github.com/anxuanhan/drug_toxicity_prediction/blob/main/img/loss%20and%20f1_score.jpg)
 
 ## Usage
-open cmd<br>
+Open cmd<br>
 python software.py "the absolute path of the csv file"<br>
 The following command is an example:<br>
 ```
