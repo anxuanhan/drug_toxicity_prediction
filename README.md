@@ -11,7 +11,7 @@ This is a binary project to predict whether a drug will be toxic, using the Mult
 * Argparse 1.1
 * Pycharm 2023.1.2
   
-## This is a simple binary deep learning project
+## Neural Network Diagram
 ![hhhh](https://github.com/anxuanhan/drug_toxicity/blob/main/hax.jpg)
 
 this is a [link](https://zhuanlan.zhihu.com/p/432503792)
