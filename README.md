@@ -12,9 +12,10 @@ This is a binary project to predict whether a drug will be toxic, using the Mult
 * Pycharm 2023.1.2
   
 ## Neural Network Diagram
-![hhhh](https://github.com/anxuanhan/drug_toxicity/blob/main/hax.jpg)
+![Neural Network Diagram](https://github.com/anxuanhan/drug_toxicity_prediction/blob/main/img/neural%20network%20diagram.png)
 
-this is a [link](https://zhuanlan.zhihu.com/p/432503792)
+## Usage
+
 
 
 ```
@@ -30,10 +31,10 @@ print()
 * xxxx
 * xxxx
 ## Dataset
-The dataset is derived from Huawei Cup 2021 mathematical modeling problem D
+The dataset is derived from Huawei Cup 2021 mathematical modeling problem D<br>
 [Data source](https://cpipc.acge.org.cn//cw/detail/4/2c9080147c73b890017c7779e57e07d2)
 
 
 ## Contact
-Any questions, problems, bugs are welcome and should be dumped to Anxuan Han. hax3417@163.com.
-Created on July. 24, 2023.
+Any questions, problems, bugs are welcome and should be dumped to Anxuan Han. hax3417@163.com.<br>
+Created on July. 24, 2023.  
