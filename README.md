@@ -1,7 +1,9 @@
 # drug_toxicity_predction
-This project aims to enable users to predict the toxicity of drugs using the Deeplearning Multi-Layer Perceptron (MLP) algorithm, which has been meticulously implemented using PyTorch.
+This project aims to enable users to predict the toxicity of drugs using the Deep-learning Multi-Layer Perceptron (MLP) algorithm, which has been meticulously implemented using PyTorch.
 ## Description
 Cell and animal experiments have traditionally been used to determine drug toxicity, but they can be time-consuming, expensive, and labor-intensive. However, we now employ the deep learning MLP algorithm to create models based on known drug features and labels. By identifying the best model that predicts toxicity using the highest f1-score from the validation dataset, we can streamline the screening process. To facilitate the utilization of this model for drug toxicity prediction, a user-friendly software has been developed. This software only requires the input of the absolute path of the CSV file containing the drug features in order to generate accurate prediction results.
+In this repository, we utilize the train_valid.py script to train a model. The data is located in the dataset folder and consists of two files: train_feature.pkl and hERG.pkl. These files contain 1974 samples with 729 features. We split this dataset into a training dataset and a validation dataset in a 9:1 ratio. Additionally, we employ the test.py script to obtain drug labels for a series of tests.
+
 ## Environment
 * Python 3.9.13
 * PyTorch 2.0.1
@@ -20,11 +22,16 @@ Cell and animal experiments have traditionally been used to determine drug toxic
 ## Usage
 Open cmd<br>
 python software.py "the absolute path of the csv file"<br>
-The following command is an example:<br>
+Users can run the script as follow, here is an example command:<br>
 ```
-$ python software.py "D:\deeplearning project\dataset.csv"
+$ python software.py "D:\deeplearning_project\dataset.csv"
 ```
-Then the predicted results will be returned in the cmd window.
+Then the predicted results will be shown in the cmd line.<br>
+
+Note: Here are the codes for training that can be used to reproduce the results and train your own data:
+```
+$ python train_valid.py
+```
 
 ## Dataset
 The dataset is derived from Huawei Cup 2021 mathematical modeling problem D<br>
