@@ -12,7 +12,6 @@ In this repository, we utilize the train_valid.py script to train a model. The d
 * Matplotlib 3.7.1
 * Sklearn 1.2.2
 * Argparse 1.1
-* Pycharm 2023.1.2
 ## Neural Network Diagram
 ![Neural Network Diagram](https://github.com/anxuanhan/drug_toxicity_prediction/blob/main/img/neural%20network%20diagram.png)
 
