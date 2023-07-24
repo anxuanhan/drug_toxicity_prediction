@@ -1,5 +1,5 @@
 # drug_toxicity_predction
-This project is for users to predict the toxicity of drugs, using the Multi-Layer Perceptron (MLP) algorithm, which is carefully implemented by pytorch.
+This project aims to enable users to predict the toxicity of drugs using the Deeplearning Multi-Layer Perceptron (MLP) algorithm, which has been meticulously implemented using PyTorch.
 ## Description
 Cell and animal experiments have traditionally been used to determine drug toxicity, but they can be time-consuming, expensive, and labor-intensive. However, we now employ the deep learning MLP algorithm to create models based on known drug features and labels. By identifying the best model that predicts toxicity using the highest f1-score from the validation dataset, we can streamline the screening process. To facilitate the utilization of this model for drug toxicity prediction, a user-friendly software has been developed. This software only requires the input of the absolute path of the CSV file containing the drug features in order to generate accurate prediction results.
 ## Environment
