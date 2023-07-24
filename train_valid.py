@@ -65,13 +65,13 @@ def train_epoch(net, train_batchdata, optimizer,criterion):
     batch_loss = 0
     samples = 0
     for batch_idx, (x, y) in enumerate(train_batchdata):
-        yhat = net.forward(x).flatten()  # x的形状[32,729]  sigma
-        loss = criterion(yhat, y)  #
+        yhat = net.forward(x).flatten()  
+        loss = criterion(yhat, y)  
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
 
-        batch_loss = batch_loss + loss.item()  # 这里注意下怎么求损失函数的值
+        batch_loss = batch_loss + loss.item()  
         samples = samples + x.shape[0]
 
     train_epoch_loss = batch_loss / samples
@@ -85,7 +85,7 @@ def valid_epoch(net, valid_batchdata,criterion):
          for batch_idx, (x, y) in enumerate(valid_batchdata):
              yhat = net.forward(x).flatten()
              loss = criterion(yhat, y)  #
-             batch_loss = batch_loss + loss.item()  # 这里注意下怎么求损失函数的值
+             batch_loss = batch_loss + loss.item()  
              samples = samples + x.shape[0]
              yhat_list.extend(yhat.data.numpy())
              y_list.extend(y.data.numpy())
